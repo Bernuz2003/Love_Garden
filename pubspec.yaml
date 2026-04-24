@@ -1,0 +1,32 @@
+name: il_nostro_giardino
+description: "Un piccolo rifugio emotivo vivo."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.4.9
+  sqflite: ^2.3.0
+  path_provider: ^2.1.1
+  uuid: ^4.2.2
+  intl: ^0.18.1
+  path: ^1.8.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  image_path: "assets/app_logo.png"
+  min_sdk_android: 21
